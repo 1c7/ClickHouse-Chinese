@@ -3,7 +3,7 @@
 
 ## ClickHouse 是什么？
 1. ClickHouse 是一个数据库。它有 `create database`, `create table`, 自己的数据类型。等等。
-2. 我们的目标是把 ClickHouse 当数据库，前面在加一个 Superset 做数据可视化。
+2. 本库创建者的具体用例: PostgreSQL 依然是业务的主数据库, 数据同步到 ClickHouse，数据可视化用 Superset。
 
 ## 这是什么？
 这里是一个资料列表，存放所有高质量的 ClickHouse 学习资料，包括文章，视频。 
@@ -17,7 +17,6 @@
 点评：五星推荐。非常适合新手观看。    
 2022年1月出的视频，59分钟50秒。     
 内容是对 ClickHouse 做入门介绍。     
-
 * 会教你怎么安装 ClickHouse
 * 如何从命令行链接上 ClickHouse (使用 `clickhouse-client`)
 * 介绍 ClickHouse 内置的 Web UI `localhost:8123`  
@@ -76,7 +75,6 @@ cat sdata.csv | clickhouse-client \
   * Client Libraries
   * Rendering
     * Apache Superset
-  
 
 * [(书籍) ClickHouse原理解析与应用实践](https://book.douban.com/subject/35091211/)  
 这本书我粗略翻了一下，270页。似乎是市面上唯一一本中文书。    
